@@ -1,0 +1,33 @@
+[
+      {
+            "name": "Казань",
+            "info": "КРУТОЙ ГОРОД ЧЕ",
+            "questions": [
+                  {
+                        "question": "как называется улица в Казани?",
+                        "questionType": "freeAnswer",
+                        "answer": "Ленина"
+                  },
+                  {
+                        "question": "как называется улица в Казани?",
+                        "questionType": "freeAnswer",
+                        "answer": "Ленина"
+                  },
+                  {
+                        "question": "как называется улица в Казани?",
+                        "questionType": "chooseAnswer",
+                        "variants": [
+                              {"name": "Ленина"},
+                              {"name": "Маркса"},
+                              {"name": "Усачева"}
+                        ],
+                        "answer": "Ленина"
+                  },
+                  {
+                        "question": "как называется улица в Казани?",
+                        "questionType": "freeAnswer",
+                        "answer": "Ленина"
+                  }
+            ]
+      }
+]
