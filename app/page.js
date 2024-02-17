@@ -143,7 +143,6 @@ export default function Main()
                   }}>
                        <Social link='/#' img={stock7.src}/>
                        <Social link='/#' img={stock8.src}/>
-                       <Social link='/#' img={stock9.src}/>
                   </div>
             </div>
       </Fragment>
