@@ -19,6 +19,6 @@ export default function Tcard(props)
             style={{marginBottom: '25px'}}
         />
         <div style={{fontSize: '30px', marginTop: '12px', marginBottom: '25px'}}>{props.title}</div>
-        <div style={{fontSize: '18px'}}>{props.text}</div>
+        <div style={{fontSize: '18px', width: '300px'}}>{props.text}</div>
     </div>
 }

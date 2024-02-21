@@ -105,16 +105,15 @@ export default function Main()
                   backgroundSize: 'cover'
             }}>
                   <div style={{
-                              color: 'white',
-                              height: '560px',
-                              backgroundImage: '-webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.90))',
-                              display: 'flex',
-                              flexDirection: 'column',
-                              justifyContent: 'center',
-                              alignItems: 'center'
-                        }}>
+                        color: 'white',
+                        height: '560px',
+                        backgroundImage: '-webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.90))',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                  }}>
                         <p style={{textAlign: 'center', fontSize: '48px'}}>Совместно создаем яркое будущее:<br/>зарядим наши атомные города энергией<br/>успеха и инноваций!</p>
-                        <Image/>
                         <Button2 name='присоединиться к сообществу' link='/#'/>
                   </div>
             </div>
