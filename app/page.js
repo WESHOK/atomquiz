@@ -39,11 +39,12 @@ export default function Main()
                         alignItems: 'center',
                   }}>
                         <Image
-                        src={stock9.src}
-                        width={1016}
-                        height={496}
-                        alt='logo'
-                        style={{paddingBottom: '100px'}}/>
+                              src={stock9.src}
+                              width={1016}
+                              height={496}
+                              alt='logo'
+                              style={{paddingBottom: '100px'}}
+                        />
                         <strong style={{color: 'rgb(255, 255, 255)'}}><em>Сообщество существует только там, где есть общая деятельность</em></strong>
                   </div>
             </div>
