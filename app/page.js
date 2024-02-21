@@ -16,7 +16,6 @@ import stock6 from 'root/public/stock6.webp'
 import stock7 from 'root/public/stock7.webp'
 import stock8 from 'root/public/stock8.webp'
 import stock9 from 'root/public/stock9.webp'
-import stock10 from 'root/public/stock10.webp'
 
 export default function Main()
 {
@@ -40,7 +39,7 @@ export default function Main()
                         alignItems: 'center',
                   }}>
                         <Image
-                        src={stock10.src}
+                        src={stock9.src}
                         width={1016}
                         height={496}
                         alt='logo'
@@ -114,6 +113,7 @@ export default function Main()
                         alignItems: 'center'
                   }}>
                         <p style={{textAlign: 'center', fontSize: '48px'}}>Совместно создаем яркое будущее:<br/>зарядим наши атомные города энергией<br/>успеха и инноваций!</p>
+
                         <Button2 name='присоединиться к сообществу' link='/#'/>
                   </div>
             </div>
@@ -137,10 +137,9 @@ export default function Main()
                         width: '170px',
                         display: 'flex',
                         flexDirection: 'row',
-                        justifyContent: 'space-between',
+                        justifyContent: 'space-around',
                         alignItems: 'center'
                   }}>
-                       <Social link='/#' img={stock7.src}/>
                        <Social link='/#' img={stock8.src}/>
                        <Social link='/#' img={stock9.src}/>
                   </div>
