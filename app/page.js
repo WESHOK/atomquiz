@@ -16,7 +16,6 @@ import stock6 from 'root/public/stock6.webp'
 import stock7 from 'root/public/stock7.webp'
 import stock8 from 'root/public/stock8.webp'
 import stock9 from 'root/public/stock9.webp'
-import stock10 from 'root/public/stock10.webp'
 
 export default function Main()
 {
@@ -40,11 +39,12 @@ export default function Main()
                         alignItems: 'center',
                   }}>
                         <Image
-                        src={stock10.src}
-                        width={1016}
-                        height={496}
-                        alt='logo'
-                        style={{paddingBottom: '100px'}}/>
+                              src={stock9.src}
+                              width={1016}
+                              height={496}
+                              alt='logo'
+                              style={{paddingBottom: '100px'}}
+                        />
                         <strong style={{color: 'rgb(255, 255, 255)'}}><em>Сообщество существует только там, где есть общая деятельность</em></strong>
                   </div>
             </div>
@@ -105,16 +105,16 @@ export default function Main()
                   backgroundSize: 'cover'
             }}>
                   <div style={{
-                              color: 'white',
-                              height: '560px',
-                              backgroundImage: '-webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.90))',
-                              display: 'flex',
-                              flexDirection: 'column',
-                              justifyContent: 'center',
-                              alignItems: 'center'
-                        }}>
+                        color: 'white',
+                        height: '560px',
+                        backgroundImage: '-webkit-linear-gradient(top, rgba(0,0,0,0.80), rgba(0,0,0,0.90))',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                  }}>
                         <p style={{textAlign: 'center', fontSize: '48px'}}>Совместно создаем яркое будущее:<br/>зарядим наши атомные города энергией<br/>успеха и инноваций!</p>
-                        <Image/>
+
                         <Button2 name='присоединиться к сообществу' link='/#'/>
                   </div>
             </div>
@@ -138,10 +138,9 @@ export default function Main()
                         width: '170px',
                         display: 'flex',
                         flexDirection: 'row',
-                        justifyContent: 'space-between',
+                        justifyContent: 'space-around',
                         alignItems: 'center'
                   }}>
-                       <Social link='/#' img={stock7.src}/>
                        <Social link='/#' img={stock8.src}/>
                        <Social link='/#' img={stock9.src}/>
                   </div>

@@ -10,15 +10,15 @@ import Button from './button1'
 
 export default function Header()
 {
-    return <header style={{width: '1910px', position: 'fixed', backgroundColor: 'white'}}>
+    return <header style={{width: '1905px', position: 'fixed', backgroundColor: 'white'}}>
                 <div className='header'>
                     <motion.a href='/#' whileTap={{scale: 0.8}}>
                     <Image
-                    src={logo.src}
-                    width={64}
-                    height={64}
-                    alt='logo'
-                    style={{ marginLeft: '10px' }}
+                        src={logo.src}
+                        width={64}
+                        height={64}
+                        alt='logo'
+                        style={{ marginLeft: '10px' }}
                     /></motion.a>
                     <div style={{
                         display: 'flex',
