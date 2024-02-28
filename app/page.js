@@ -140,8 +140,8 @@ export default function Main()
                         justifyContent: 'space-around',
                         alignItems: 'center'
                   }}>
+                       <Social link='/#' img={stock7.src}/>
                        <Social link='/#' img={stock8.src}/>
-                       <Social link='/#' img={stock9.src}/>
                   </div>
             </div>
       </Fragment>
