@@ -114,8 +114,7 @@ export default function Main()
                         alignItems: 'center'
                   }}>
                         <p style={{textAlign: 'center', fontSize: '48px'}}>Совместно создаем яркое будущее:<br/>зарядим наши атомные города энергией<br/>успеха и инноваций!</p>
-
-                        <Button2 name='присоединиться к сообществу' link='/#'/>
+                        <Button2 name='присоединиться к сообществу' link='/quiz/auth'/>
                   </div>
             </div>
             <div id='contacts' style={{
