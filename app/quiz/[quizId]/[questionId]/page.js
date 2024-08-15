@@ -6,7 +6,6 @@ import { motion } from "framer-motion"
 export default function questionId({params})
 {
 	return (
-		<>
 			{
 				json.map((a) =>
 				{
